@@ -19,7 +19,7 @@ function MarvelHeroes(props: MarvelHeroesReducerModel) {
     totalMarvelHeroes,
   } = props
 
-  const [totalHeroesString, setTotalHeroesString] = useState<any>()
+  const [totalHeroesString, setTotalHeroesString] = useState<string>()
 
   const {TotalMarvelHeroes} = NativeModules
 
@@ -40,8 +40,7 @@ function MarvelHeroes(props: MarvelHeroesReducerModel) {
     )
   }
 
-  let html = null
-  html = isLoadingData ? (
+  let html = isLoadingData ? (
     <View style={styles.loadSpinner}>
       <ActivityIndicator size="large" color={'#01814e'} />
     </View>

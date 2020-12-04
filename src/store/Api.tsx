@@ -35,7 +35,6 @@ export function apiRequest({
   label = '',
   headersOverride = null,
 }) {
-  console.log('API REQUEST', data)
   return {
     type: API,
     payload: {

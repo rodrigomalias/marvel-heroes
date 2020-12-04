@@ -1,8 +1,8 @@
-import {MarvelHeroeThumbnailModel} from './MarvelHeroeThumbnailModel'
+import {MarvelHeroThumbnailModel} from './MarvelHeroThumbnailModel'
 
-export type MarvelHeroeModel = {
+export type MarvelHeroModel = {
   id: number
   name: string
   description: string
-  thumbnail: MarvelHeroeThumbnailModel
+  thumbnail: MarvelHeroThumbnailModel
 }

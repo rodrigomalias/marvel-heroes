@@ -1,4 +1,4 @@
-export type MarvelHeroeThumbnailModel = {
+export type MarvelHeroThumbnailModel = {
   path: string
   extension: string
 }

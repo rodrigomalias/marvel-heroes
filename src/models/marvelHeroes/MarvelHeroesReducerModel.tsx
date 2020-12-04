@@ -1,7 +1,7 @@
-import {MarvelHeroeModel} from './MarvelHeroeModel'
+import {MarvelHeroModel} from './MarvelHeroModel'
 
 export interface MarvelHeroesReducerModel {
-  marvelHeroes: Array<MarvelHeroeModel>
+  marvelHeroes: Array<MarvelHeroModel>
   isLoadingData: boolean
   fetchMarvelHeroes: Function
   totalMarvelHeroes: number

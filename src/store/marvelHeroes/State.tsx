@@ -1,7 +1,7 @@
-import {MarvelHeroeModel} from '../../models/marvelHeroes/MarvelHeroeModel'
+import {MarvelHeroModel} from '../../models/marvelHeroes/MarvelHeroModel'
 import {MarvelHeroesReducerModel} from '../../models/marvelHeroes/MarvelHeroesReducerModel'
 
-const marvelHeroes = {} as MarvelHeroeModel
+const marvelHeroes = {} as MarvelHeroModel
 
 const marvelHeroesInitialState: MarvelHeroesReducerModel = {
   marvelHeroes: [marvelHeroes],
